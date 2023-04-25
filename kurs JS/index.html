@@ -1,0 +1,50 @@
+<html>
+	
+	<head>
+		<title>NaukaJS</title>
+		<link rel="stylesheet" href="css.css">
+		<script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="java.js"></script>
+		
+	</head>
+	
+	<body onload="refresh(), change();">
+		
+		<div id="title">
+			<h1> Tutaj uczę się JavaScript'a</h1>
+		</div>
+		
+		<div id="rest">
+			
+			<div id="clock">
+			</div>
+			
+			<div id="czesc2">
+				<input type="text" id="pole"/>
+				<input type="submit" value="Sprawdz" onclick="check()"/>
+				<div id="wynik">
+				</div>
+				
+				<br>
+				<br>
+				
+				<div id="wypi">
+					<input type="text" id="wart1"/>
+					<input type="text" id="wart2"/>
+					<input type="submit" value="Sprawdz" onclick="wypisz()"/>
+					<div id="wynik2">
+					</div>
+				</div>
+				
+				<span onclick="set(1)">[1]&nbsp </span>
+				<span onclick="set(2)">[2]&nbsp </span>
+				<span onclick="set(3)">[3]&nbsp </span>
+				<span onclick="set(4)">[4]&nbsp </span>
+				<span onclick="set(5)">[5]&nbsp </span>
+				<div id="slider"></div>
+				
+			</div>
+		</div>
+	</body>
+	
+</html>					

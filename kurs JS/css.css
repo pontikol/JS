@@ -1,0 +1,27 @@
+body{
+	background: linear-gradient(#C5ADC5, #B2B5E0);
+}
+h1{
+	text-align:center;
+}
+#title{
+	height:10vh;
+}
+#rest{
+	height:100%;
+}
+#clock{
+	text-align:center;
+	font-size:3em;
+}
+
+#slider{
+	height:50vh;
+	width:50vh;
+}
+
+span
+{
+	cursor: pointer;
+	font-size: 2em;
+}
